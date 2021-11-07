@@ -1,4 +1,4 @@
-# Frontend Getting Started Guide
+# Frontend Handbook
 
 This Handbook should be the starting point for any new team members. It provides an overview our roles, our team norms, and details of our processes.
 
