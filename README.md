@@ -22,6 +22,6 @@ This Handbook should be the starting point for any new team members. It provides
 
 ## Helpful resources
 
-<!-- [Contributing](CONTRIBUTING.md)   -->
+[Contributing](CONTRIBUTING.md)  
 [Code of conduct](CODE_OF_CONDUCT.md)  
 [GitHub Community Guidelines](https://docs.github.com/articles/github-community-guidelines)   
