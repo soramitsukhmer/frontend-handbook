@@ -1,3 +1,0 @@
-# Echosystem
-
-> WIP
