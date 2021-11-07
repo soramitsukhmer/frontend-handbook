@@ -4,9 +4,9 @@ Before you can start, please take sometime to go through the setup process for y
 
 ## Prerequisites
 
-In order to download necessary tools, clone the repository, and install dependencies via yarn, you need network access.
+In order to download necessary tools and install dependencies, you need network access.
 
-### You'll need the following tools:
+You'll need the following tools:
 
 - [Homebrew](https://brew.sh/), follow the [installation guide](https://brew.sh/#install)
 - [Git](https://git-scm.com/)
