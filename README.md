@@ -15,6 +15,12 @@ This Handbook should be the starting point for any new team members. It provides
     1. [Architecture design](2-Development-lifecycle/2-Architecture-design.md)
     1. [Tooling](2-Development-lifecycle/3-Tooling.md)
     1. [Style guides](2-Development-lifecycle/4-Style-guides.md)
+1. [Workflow](3-Workflow/README.md)
+    1. [Create a new project](3-Workflow/1-Create-new-project.md)
+    1. [Setup libraries](3-Workflow/2-Setup-libraries.md)
+    1. [Setup CI/CD](3-Workflow/3-Setup-CICD.md)
+    1. [Release flow](3-Workflow/4-Release-flow.md)
+
 
 ## Helpful resources
 
