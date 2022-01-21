@@ -1,5 +1,12 @@
 # Release Flow
 
+**Checklists**
+- [ ] Create version tag `locally`
+- [ ] Push tag to GitHub
+- [ ] Create a release on GitHub
+- [ ] Wait for GitHub Actions to finish building Docker Image
+- [ ] Deploy the application (manully or done automatically via GitHub Actions)
+
 **How to create release and build docker image**
 
 - [ ] Fetch and pull latest code base from `develop` or `master/main` branch.
