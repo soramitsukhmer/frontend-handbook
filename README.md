@@ -19,7 +19,7 @@ This Handbook should be the starting point for any new team members. It provides
     1. [Create a new project](3-Workflow/1-Create-new-project.md)
     1. [Setup libraries](3-Workflow/2-Setup-libraries.md)
     1. [Setup CI/CD](3-Workflow/3-Setup-CICD.md)
-    1. [Release flow](3-Workflow/4-Release-flow.md)
+    1. [Release Guide](3-Workflow/4-Release-guide.md)
 
 
 ## Helpful resources
