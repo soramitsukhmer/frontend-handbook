@@ -1,6 +1,6 @@
-# Release Flow
+# Release Guide
 
-### Checklists
+## Checklists
 - [ ] Update your local `refs`
 - [ ] Create version `tag`
 - [ ] Push tag to GitHub
@@ -9,7 +9,7 @@
   - [ ] Wait for `Build Docker Image` workflow to finished
 - [ ] Deploy the application (manully or done automatically via GitHub Actions)
 
-### Update your local `refs`
+## Update your local `refs`
 
 > **Note:**
 > 
@@ -31,7 +31,7 @@ git pull
 ```
 
 
-### Create version `tag`
+## Create version `tag`
 
 > **Note:**
 > 
@@ -84,7 +84,7 @@ yarn version --minor --patch
 
 > Optional: Some project might have `bump:release` script in `package.json`. You can run `yarn bump:release` it the same as run `yarn version`
 
-### Push tag to GitHub
+## Push tag to GitHub
 
 Push the `commit` and `tag` to GitHub. And wait for **GitHub Action** job `Unit test and Lint` to finished.
 
@@ -92,7 +92,7 @@ Push the `commit` and `tag` to GitHub. And wait for **GitHub Action** job `Unit 
 git push --tag --verbose
 ```
 
-### Create a release on GitHub
+## Create a release on GitHub
 
 After the **GitHub Action** job for `Unit test and Lint` to finished. You can either create a new release or update drafted release changelogs (automatically generated using `release-drafter`).
 
@@ -100,6 +100,6 @@ After the **GitHub Action** job for `Unit test and Lint` to finished. You can ei
 
 - Wait for GitHub Actions to finish building Docker Image
 
-### Deploy the application
+## Deploy the application
 
 > Note: Deploy the application (manully or done automatically via GitHub Actions).
