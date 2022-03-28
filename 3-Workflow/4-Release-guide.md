@@ -1,6 +1,19 @@
 # Release Guide
 
+## Lifecycle
+
+This is the lifecycle of Frontend application:
+
+```
+Branch:       Tags:                   Env:
+
+Development   -> [alpha/beta]         -> [Development]
+Main          -> [Release Candidate]  -> [Stagging]
+Release       -> [Stable]             -> [Production]
+```
+
 ## Checklists
+
 - [ ] Update your local `refs`
 - [ ] Create version `tag`
 - [ ] Push tag to GitHub
@@ -12,7 +25,7 @@
 ## Update your local `refs`
 
 > **Note:**
-> 
+>
 > The `tags` and `releases` must be create within `master/main`, `develop` or `release/*` branch.
 
 ```sh
@@ -30,11 +43,10 @@ git fetch --all --prune
 git pull
 ```
 
-
 ## Create version `tag`
 
 > **Note:**
-> 
+>
 > `tag` should be created locally, but in some case we can use GitHub Release to create both `releases` and `tags depend on project type.
 >
 > Created `tag` must follow [**Semantic Versioning**](https://semver.org/) scheme.
@@ -56,6 +68,7 @@ yarn version
 ```
 
 **Options:**
+
 ```
 --major                             auto-increment major version number
 --minor                             auto-increment minor version number
