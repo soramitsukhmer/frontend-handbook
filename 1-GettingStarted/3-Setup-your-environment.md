@@ -1,8 +1,21 @@
 # Setup your environment
 
-Before you can start, please take sometime to go through the setup process for your development environment.
+Before you can start, please take sometime to go through the setup process for your development environment. You can choose between a **One-click Installation** or a **Manual Installation** approach.
 
-## Prerequisites
+## One-click Installation
+
+To help you getting started we have prepared an automated seup script for your computer. Please run the following command to install and configure all necessary softwares and tools.
+
+```sh
+curl -o- https://raw.githubusercontent.com/soramitsukhmer/setup/main/install | sh
+```
+
+> The source can be found here. [soramitsukhmer/setup](https://github.com/soramitsukhmer/setup)
+
+
+## Manual Installation
+
+### Prerequisites
 
 In order to download necessary tools and install dependencies, you need network access.
 
