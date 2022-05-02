@@ -1,6 +1,6 @@
 # Setup your environment
 
-Before you can start, please take sometime to go through the setup process for your development environment. You can choose between a **One-click Installation** or a **Manual Installation** approach.
+Before you can start, please take sometime to go through the setup process for your development environment. You can choose between a `One-click Installation` or a `Manual Installation` approach.
 
 ## One-click Installation
 
