@@ -12,6 +12,7 @@ curl -o- https://raw.githubusercontent.com/soramitsukhmer/setup/main/install | s
 
 > The source can be found here. [soramitsukhmer/setup](https://github.com/soramitsukhmer/setup)
 
+Once done, then you can head over to [`Development lifecycle -> Tooling`](https://github.com/soramitsukhmer/frontend-handbook/blob/main/2-Development-lifecycle/3-Tooling.md) to setup your editor.
 
 ## Manual Installation
 
@@ -60,3 +61,6 @@ You'll need the following tools:
     Alternatively, you can avoid local dependency installation as you can use Visual Studio Code Remote - Containers / Codespaces / DevContainer [development container](https://code.visualstudio.com/docs/remote/containers).
 
     Docker / the Codespace should have at least 4 Cores and 6 GB of RAM (8 GB recommended) to run the full build.
+
+
+Once done, then you can head over to [`Development lifecycle -> Tooling`](https://github.com/soramitsukhmer/frontend-handbook/blob/main/2-Development-lifecycle/3-Tooling.md) to setup your editor.
