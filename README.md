@@ -4,9 +4,8 @@ This Handbook should be the starting point for any new team members. It provides
 
 > "A true thing, poorly expressed, is a lie." — Stephen Fry
 
-### Table of contents
+https://soramitsukhmer.com/frontend-handbook/
 
-> WIP
 
 ## Development
 
