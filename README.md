@@ -8,6 +8,25 @@ This Handbook should be the starting point for any new team members. It provides
 
 > WIP
 
+## Development
+
+This section will help you build a basic VitePress documentation site.
+
+> Warning:
+> VitePress is currently in alpha status. It is already suitable for out-of-the-box documentation use, but the config and theming API may still change between minor releases.
+
+### Boot up dev environment
+
+Serve the documentation site in the local server.
+
+```sh
+yarn docs:dev
+```
+
+VitePress will start a hot-reloading development server at http://localhost:3000.
+
+See https://vitepress.vuejs.org/guide/getting-started.html for more information.
+
 ## Helpful resources
 
 [Contributing](CONTRIBUTING.md)  
