@@ -33,7 +33,7 @@ function nav(): DefaultTheme.NavItem[] {
     { text: 'Home', link: '/' },
     { text: 'On-Boarding', link: '/on-boarding/' },
     { text: 'Engineering Guide', link: '/guide/' },
-    { text: 'Contribute', link: '/development' },
+    { text: 'Contribution', link: '/contribution' },
   ]
 }
 

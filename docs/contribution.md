@@ -1,4 +1,4 @@
-# Contribute
+# Contribution
 
 Please make sure to read the [Contributing Guide](https://github.com/soramitsukhmer/frontend-handbook/blob/main/CONTRIBUTING.md) before making a pull request.
 
