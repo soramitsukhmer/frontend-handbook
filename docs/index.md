@@ -5,6 +5,13 @@ hero:
   name: Handbook
   text: For Team Frontend
   tagline: This Handbook should be the starting point for any new team members. It provides an overview our roles, our team norms, and details of our processes.
+  actions:
+    - theme: alt
+      text: Soramitsu Khmer
+      link: https://github.com/soramitsukhmer
+    - theme: alt
+      text: Team Frontend
+      link: https://github.com/orgs/soramitsukhmer/teams/team-frontend-all
 
 features:
   - icon: 🖖
