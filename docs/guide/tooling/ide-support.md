@@ -12,7 +12,7 @@ We also have our own Visual Studio Code's [Extension Pack](https://marketplace.v
 
 **Install from Marketplace**
 
-[Click here to Install](vscode:extension/soramitsukhmer.vscode-frontend-pack)
+[Click here to Install](https://marketplace.visualstudio.com/items?itemName=soramitsukhmer.vscode-frontend-pack)
 
 **or Manual Install**
 
