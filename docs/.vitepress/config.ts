@@ -1,6 +1,11 @@
 import { defineConfig } from'vitepress'
 import type { DefaultTheme } from'vitepress'
 
+const metadata = {
+  repo: "soramitsukhmer/frontend-handbook",
+  url: "https://github.com/soramitsukhmer/frontend-handbook"
+}
+
 export default defineConfig({
   lang: 'en-US',
   title: 'Soramitsu (Khmer)',
@@ -16,6 +21,12 @@ export default defineConfig({
       '/guide/': guideSidebar(),
     },
     socialLinks: socialLinks(),
+    editLink: {
+      repo: metadata.repo,
+      dir: 'docs',
+      branch: 'develop',
+      text: 'Edit this page on GitHub'
+    },
     footer: {
       message: 'Released under the MIT License.',
       copyright: 'Copyright © 2022-present Socheat Sok'
@@ -27,7 +38,7 @@ function socialLinks(): DefaultTheme.SocialLink[] {
   return [
     {
       icon: 'github',
-      link: 'https://github.com/soramitsukhmer/frontend-handbook'
+      link: metadata.url
     }
   ]
 }
@@ -37,7 +48,13 @@ function nav(): DefaultTheme.NavItem[] {
     { text: 'Home', link: '/' },
     { text: 'On-Boarding', link: '/on-boarding/' },
     { text: 'Engineering Guide', link: '/guide/' },
-    { text: 'Contribution', link: '/contribution' },
+    {
+      text: 'Help',
+      items: [
+        { text: 'Contribution', link: '/contribution' },
+        { text: 'Discussions', link: `${metadata.url}/discussions/3` },
+      ]
+    },
   ]
 }
 
