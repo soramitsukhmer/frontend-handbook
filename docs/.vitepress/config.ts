@@ -87,5 +87,12 @@ function guideSidebar(): DefaultTheme.SidebarGroup[] {
     //     { text: 'Security', link: '/guide/wip' },
     //   ]
     // },
+    {
+      text: 'Migrations',
+      collapsible: true,
+      items: [
+        { text: 'Migration from Vue v2', link: '/guide/migrations/migration-from-vue2' },
+      ]
+    },
   ]
 }
