@@ -23,12 +23,12 @@ Serve the documentation site in the local server.
 yarn docs:dev
 ```
 
-VitePress will start a hot-reloading development server at http://localhost:3000.
+VitePress will start a hot-reloading development server at `http://localhost:3000`.
 
 See https://vitepress.vuejs.org/guide/getting-started.html for more information.
 
 ## Helpful resources
 
-[Contributing](CONTRIBUTING.md)  
-[Code of conduct](CODE_OF_CONDUCT.md)  
+[Contributing](https://github.com/soramitsukhmer/frontend-handbook/blob/main/CONTRIBUTING.md)  
+[Code of conduct](https://github.com/soramitsukhmer/frontend-handbook/blob/main/CODE_OF_CONDUCT.md)  
 [GitHub Community Guidelines](https://docs.github.com/articles/github-community-guidelines)   
