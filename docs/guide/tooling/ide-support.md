@@ -4,6 +4,22 @@ The recommended IDE setup is [VSCode](https://code.visualstudio.com/) + the Vola
 
 See [Vue.js Docs for IDE Support](https://vuejs.org/guide/scaling-up/tooling.html#ide-support) for details.
 
+## Out-of-box Experience
+
+::: tip
+We also have our own Visual Studio Code's [Extension Pack](https://marketplace.visualstudio.com/items?itemName=soramitsukhmer.vscode-frontend-pack) for quickly install all the necessary extension for Frontend Development.
+:::
+
+**Install from Marketplace**
+
+[Click here to Install](vscode:extension/soramitsukhmer.vscode-frontend-pack)
+
+**or Manual Install**
+
+```sh
+$ code --install-extension soramitsukhmer.vscode-frontend-pack
+```
+
 ## Development Environment
 
 This is strongly recommended for its great out-of-the-box support for Vue.js.
