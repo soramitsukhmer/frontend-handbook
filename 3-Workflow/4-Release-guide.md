@@ -12,6 +12,10 @@ Main          -> [Release Candidate]  -> [Stagging]
 Release       -> [Stable]             -> [Production]
 ```
 
+| Name | Description | Branch      | Docker Tag   | Release Env   |
+| ---- | ----------- | ----------- | ------------ | ------------- |
+| Name | Description | Development | [alpha/beta] | [Development] |
+
 ## Checklist
 
 ### Update your local `refs`
@@ -38,25 +42,24 @@ $ git pull
 
 ## Create version `tag`
 
-> **Note:**
-> `tag` should be created locally, but in some case we can use GitHub Release to create both `releases` and `tags depend on project type.
+> **Note:** > `tag` should be created locally, but in some case we can use GitHub Release to create both `releases` and `tags depend on project type.
 
 > The created `tag` must follow [**Semantic Versioning**](https://semver.org/) standard.
 
 <details>
   <summary>Stable version</summary>
 
-  Given a version number `MAJOR.MINOR.PATCH`, increment the:
+Given a version number `MAJOR.MINOR.PATCH`, increment the:
 
-  1. `MAJOR` version when you make **incompatible API changes**,
-  1. `MINOR` version when you **add functionality** in a **backwards compatible** manner, and
-  1. `PATCH` version when you make backwards compatible **bug fixes**.
+1. `MAJOR` version when you make **incompatible API changes**,
+1. `MINOR` version when you **add functionality** in a **backwards compatible** manner, and
+1. `PATCH` version when you make backwards compatible **bug fixes**.
 </details>
 
 <details>
   <summary>Pre-release version</summary>
 
-A pre-release version MAY be denoted by appending a hyphen and a series of dot separated identifiers immediately following the patch version. Identifiers MUST comprise only ASCII alphanumerics and hyphens [0-9A-Za-z-]. 
+A pre-release version MAY be denoted by appending a hyphen and a series of dot separated identifiers immediately following the patch version. Identifiers MUST comprise only ASCII alphanumerics and hyphens [0-9A-Za-z-].
 
 Identifiers MUST NOT be empty. Numeric identifiers MUST NOT include leading zeroes. Pre-release versions have a lower precedence than the associated normal version. A pre-release version indicates that the version is unstable and might not satisfy the intended compatibility requirements as denoted by its associated normal version. Examples: `1.0.0-alpha`, `1.0.0-alpha.1`, `1.0.0-0.3.7`, `1.0.0-x.7.z.92`, `1.0.0-x-y-z.–`
 
