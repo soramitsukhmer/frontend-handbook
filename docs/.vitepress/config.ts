@@ -12,7 +12,8 @@ export default defineConfig({
     siteTitle: false,
     nav: nav(),
     sidebar: {
-      '/on-boarding/': onBoardingSidebar()
+      '/on-boarding/': onBoardingSidebar(),
+      '/guide/': guideSidebar(),
     },
     socialLinks: socialLinks(),
   },
@@ -45,6 +46,18 @@ function onBoardingSidebar(): DefaultTheme.SidebarGroup[] {
         { text: 'Checklist', link: '/on-boarding/checklist' },
         { text: 'Setting up services', link: '/on-boarding/setting-up-services' },
         { text: 'Setup your environment', link: '/on-boarding/setup-your-environment' },
+      ]
+    }
+  ]
+}
+
+function guideSidebar(): DefaultTheme.SidebarGroup[] {
+  return [
+    {
+      text: 'Introduction',
+      collapsible: true,
+      items: [
+        { text: 'Getting Started', link: '/guide/' },
       ]
     }
   ]
