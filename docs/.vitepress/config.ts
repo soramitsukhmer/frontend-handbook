@@ -60,6 +60,32 @@ function guideSidebar(): DefaultTheme.SidebarGroup[] {
       items: [
         { text: 'Getting Started', link: '/guide/' },
       ]
-    }
+    },
+    // {
+    //   text: 'Project setup',
+    //   collapsible: true,
+    //   items: [
+    //     { text: 'Configure git repo', link: '/guide/wip' },
+    //     { text: 'Project Scaffolding', link: '/guide/wip' },
+    //   ]
+    // },
+    {
+      text: 'Tooling',
+      collapsible: true,
+      items: [
+        { text: 'IDE Support', link: '/guide/tooling/ide-support' },
+        { text: 'Browser Devtools', link: '/guide/tooling/browser-devtools' },
+      ]
+    },
+    // {
+    //   text: 'Best Practices',
+    //   collapsible: true,
+    //   items: [
+    //     { text: 'Production  Deployment', link: '/guide/wip' },
+    //     { text: 'Performance', link: '/guide/wip' },
+    //     { text: 'Accessibility', link: '/guide/wip' },
+    //     { text: 'Security', link: '/guide/wip' },
+    //   ]
+    // },
   ]
 }
