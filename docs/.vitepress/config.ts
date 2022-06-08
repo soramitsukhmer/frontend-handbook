@@ -1,4 +1,5 @@
 import { defineConfig } from'vitepress'
+import type { DefaultTheme } from'vitepress'
 import { nav } from './nav'
 
 export default defineConfig({
@@ -6,6 +7,16 @@ export default defineConfig({
   title: 'Frontend Handbook',
   description: 'Just playing around.',
   themeConfig: {
-    nav: nav()
+    nav: nav(),
+    socialLinks: socialLinks()
   },
 })
+
+function socialLinks(): DefaultTheme.SocialLink[] {
+  return [
+    {
+      icon: 'github',
+      link: 'https://github.com/soramitsukhmer/frontend-handbook'
+    }
+  ]
+}

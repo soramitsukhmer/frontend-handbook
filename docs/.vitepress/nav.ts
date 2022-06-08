@@ -1,5 +1,5 @@
 import type { DefaultTheme } from 'vitepress'
-export function nav(): DefaultTheme.Config['nav'] {
+export function nav(): DefaultTheme.NavItem[] {
     return [
         {
             text: 'Getting Started',
