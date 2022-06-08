@@ -7,8 +7,11 @@ export default defineConfig({
   description: 'Just playing around.',
   themeConfig: {
     nav: nav(),
-    sidebar: sidebar(),
-    socialLinks: socialLinks()
+    sidebar: {
+      '/on-boarding/': onBoardingSidebar()
+    },
+    socialLinks: socialLinks(),
+
   },
 })
 
@@ -29,10 +32,11 @@ function nav(): DefaultTheme.NavItem[] {
   ]
 }
 
-function sidebar(): DefaultTheme.Sidebar {
+function onBoardingSidebar(): DefaultTheme.SidebarGroup[] {
   return [
     {
       text: 'On-Boarding',
+      collapsible: true,
       items: [
         { text: 'Getting Started', link: '/on-boarding/' },
         { text: 'Checklist', link: '/on-boarding/checklist' },
