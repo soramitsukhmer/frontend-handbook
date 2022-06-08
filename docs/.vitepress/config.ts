@@ -2,16 +2,19 @@ import { defineConfig } from'vitepress'
 import type { DefaultTheme } from'vitepress'
 
 export default defineConfig({
-  base: '/frontend-handbook/',
+  lang: 'en-US',
   title: 'Soramitsu (Khmer)',
   description: 'Just playing around.',
+  base: '/frontend-handbook/',
+  lastUpdated: true,
   themeConfig: {
+    logo: 'https://static.tildacdn.com/tild6631-3830-4336-b664-373834303236/soramitsu-logo-6year.svg',
+    siteTitle: false,
     nav: nav(),
     sidebar: {
       '/on-boarding/': onBoardingSidebar()
     },
     socialLinks: socialLinks(),
-
   },
 })
 
