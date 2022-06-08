@@ -1,6 +1,10 @@
 import { defineConfig } from'vitepress'
+import { nav } from './nav'
 
 export default defineConfig({
-  title: 'VitePress',
-  description: 'Just playing around.'
+  title: 'Frontend Handbook',
+  description: 'Just playing around.',
+  themeConfig: {
+    nav: nav()
+  }
 })
