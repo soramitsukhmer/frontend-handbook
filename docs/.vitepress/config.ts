@@ -91,7 +91,7 @@ function guideSidebar(): DefaultTheme.SidebarGroup[] {
       text: 'Migrations',
       collapsible: true,
       items: [
-        { text: 'Migration from Vue v2', link: '/guide/migrations/migration-from-vue2' },
+        { text: 'Migration from Vetur', link: '/guide/migrations/migration-from-vetur' },
       ]
     },
   ]
