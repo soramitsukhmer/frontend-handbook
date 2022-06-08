@@ -1,9 +1,7 @@
 import type { DefaultTheme } from 'vitepress'
 export function nav(): DefaultTheme.NavItem[] {
     return [
-        {
-            text: 'Getting Started',
-            link: '/getting-started/'
-        }
+        { text: 'Frontend Handbook', link: '/' },
+        { text: 'Getting Started', link: '/getting-started/' }
     ]
 }
