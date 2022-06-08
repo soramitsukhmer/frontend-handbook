@@ -46,6 +46,7 @@ function socialLinks(): DefaultTheme.SocialLink[] {
 function nav(): DefaultTheme.NavItem[] {
   return [
     { text: 'Home', link: '/' },
+    { text: 'About', link: '/about' },
     { text: 'On-Boarding', link: '/on-boarding/' },
     { text: 'Engineering Guide', link: '/guide/' },
     {
