@@ -6,5 +6,6 @@ export default defineConfig({
   description: 'Just playing around.',
   themeConfig: {
     nav: nav()
-  }
+  },
+  base: '/frontend-handbook/'
 })
