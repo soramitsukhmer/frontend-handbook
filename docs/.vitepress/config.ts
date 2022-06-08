@@ -1,6 +1,5 @@
 import { defineConfig } from'vitepress'
 import type { DefaultTheme } from'vitepress'
-import { nav } from './nav'
 
 export default defineConfig({
   base: '/frontend-handbook/',
@@ -8,6 +7,7 @@ export default defineConfig({
   description: 'Just playing around.',
   themeConfig: {
     nav: nav(),
+    sidebar: sidebar(),
     socialLinks: socialLinks()
   },
 })
@@ -17,6 +17,28 @@ function socialLinks(): DefaultTheme.SocialLink[] {
     {
       icon: 'github',
       link: 'https://github.com/soramitsukhmer/frontend-handbook'
+    }
+  ]
+}
+
+function nav(): DefaultTheme.NavItem[] {
+  return [
+    { text: 'Home', link: '/' },
+    { text: 'On-Boarding', link: '/on-boarding/' },
+    { text: 'Guide', link: '/guide/' },
+  ]
+}
+
+function sidebar(): DefaultTheme.Sidebar {
+  return [
+    {
+      text: 'On-Boarding',
+      items: [
+        { text: 'Getting Started', link: '/on-boarding/' },
+        { text: 'Checklist', link: '/on-boarding/checklist' },
+        { text: 'Setting up services', link: '/on-boarding/setting-up-services' },
+        { text: 'Setup your environment', link: '/on-boarding/setup-your-environment' },
+      ]
     }
   ]
 }
