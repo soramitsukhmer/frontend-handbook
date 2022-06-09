@@ -12,7 +12,7 @@ curl -o- https://raw.githubusercontent.com/soramitsukhmer/setup/main/install | s
 
 > The source can be found here. [soramitsukhmer/setup](https://github.com/soramitsukhmer/setup)
 
-Once done, then you can head over to [`Development lifecycle -> Tooling`](https://github.com/soramitsukhmer/frontend-handbook/blob/main/2-Development-lifecycle/3-Tooling.md) to setup your editor.
+Once done, then you can head over to [`Engineering Guide -> Tooling`](http://localhost:3000/guide/tooling/ide-support.html) to setup your editor.
 
 ## Manual Installation
 
@@ -33,6 +33,17 @@ You'll need the following tools:
 
 ### Platform setup:
 
+- **macOS**  
+    You can use one of the following release of **macOS** since it provids best support with our required toolings.
+
+    - **macOS 10.15 Catalina**
+    - **macOS 11 Big Sur** (**Recommended**)
+    - **macOS 12 Monterey**
+
+    [Xcode](https://developer.apple.com/xcode/downloads/) and the **Command Line Tools**, which will install `gcc` and the related toolchain containing `make`.
+    
+    Run `xcode-select --install` to install the **Command Line Tools**.
+
 - **Windows WSL**  
     You must be running **Windows 10** version *2004* and higher (Build *19041* and higher) or **Windows 11**.  
 
@@ -45,17 +56,6 @@ You'll need the following tools:
     - On Debian-based Linux: `sudo apt-get install build-essential g++ libx11-dev libxkbfile-dev libsecret-1-dev python-is-python3`
     - On Red Hat-based Linux: `sudo yum groupinstall "Development Tools" && sudo yum install libX11-devel.x86_64 libxkbfile-devel.x86_64 libsecret-devel # or .i686`
 
-- **macOS**  
-    You can use one of the following release of **macOS** since it provids best support with our required toolings.
-
-    - **macOS 10.15 Catalina**
-    - **macOS 11 Big Sur** (**Recommended**)
-    - **macOS 12 Monterey**
-
-    [Xcode](https://developer.apple.com/xcode/downloads/) and the **Command Line Tools**, which will install `gcc` and the related toolchain containing `make`.
-    
-    Run `xcode-select --install` to install the **Command Line Tools**.
-
 - **Development container**
 
     Alternatively, you can avoid local dependency installation as you can use Visual Studio Code Remote - Containers / Codespaces / DevContainer [development container](https://code.visualstudio.com/docs/remote/containers).
@@ -63,4 +63,4 @@ You'll need the following tools:
     Docker / the Codespace should have at least 4 Cores and 6 GB of RAM (8 GB recommended) to run the full build.
 
 
-Once done, then you can head over to [`Development lifecycle -> Tooling`](https://github.com/soramitsukhmer/frontend-handbook/blob/main/2-Development-lifecycle/3-Tooling.md) to setup your editor.
+Once done, then you can head over to [`Engineering Guide -> Tooling`](http://localhost:3000/guide/tooling/ide-support.html) to setup your editor.
