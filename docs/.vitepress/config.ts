@@ -10,7 +10,7 @@ export default defineConfig({
   lang: 'en-US',
   title: 'Handbook For Team Frontend',
   description: 'This Handbook should be the starting point for any new team members. It provides an overview our roles, our team norms, and details of our processes.',
-  base: '/frontend-handbook/',
+  // base: '/frontend-handbook/',
   lastUpdated: true,
   themeConfig: {
     logo: 'https://static.tildacdn.com/tild6631-3830-4336-b664-373834303236/soramitsu-logo-6year.svg',
