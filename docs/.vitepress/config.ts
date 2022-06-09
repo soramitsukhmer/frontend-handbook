@@ -91,6 +91,16 @@ function guideSidebar(): DefaultTheme.SidebarGroup[] {
     //     { text: 'Project Scaffolding', link: '/guide/wip' },
     //   ]
     // },
+    // {
+    //   text: 'Guideline',
+    //   collapsible: true,
+    //   items: [
+    //     { text: 'Coding Guidelines', link: '/guide/wip' },
+    //     { text: 'API Guidelines', link: '/guide/wip' },
+    //     { text: 'Development Process', link: '/guide/wip' },
+    //     { text: 'Source Code Organization', link: '/guide/wip' },
+    //   ]
+    // },
     {
       text: 'Tooling',
       collapsible: true,
