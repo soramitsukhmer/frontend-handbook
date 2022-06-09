@@ -33,4 +33,4 @@ To avoid conflict please disable `Vetur` it you have it install.
 1. Click the little gear icon of "Vetur", and select "Disable (Workspace)".
 1. Reload the workspace.
 
-![Vetur](/assets/vscode-disable-vetur.png)
+![Vetur](/resources/vscode-disable-vetur.png)

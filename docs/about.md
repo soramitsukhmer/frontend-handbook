@@ -1,11 +1,11 @@
-![banner](/assets//banner.svg)
+![banner](/resources//banner.svg)
 
 ::: warning
 This Handbook is currently a "Work in Progress" stage. If you have any issues or feedback please submit a ticket over at GitHub.
 :::
 
 
-![divider](/assets//divider.png)
+![divider](/resources//divider.png)
 
 This Handbook should be the starting point for any new team members. It provides an overview our roles, our team norms, and details of our processes.
 
