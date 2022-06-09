@@ -1,6 +1,10 @@
 # Switch from Volar to Vetur
 
-This is the guide for you to switch back from **Volar** to **Vetur**.
+This is the guide for you to switch back from **Volar** to **Vetur**. This guide is only applicable if you are using **Volar** in a Vue 2 project.
+
+::: warning
+NOTE: If your tools and libraries implemented support for **Volar** and no issues occurred. You can continue using **Volar** within your Vue 2 project.
+:::
 
 ## Disable Volar
 
