@@ -2,8 +2,8 @@
 
 This is the guide for you to switch back from **Volar** to **Vetur**. This guide is only applicable if you are using **Volar** in a Vue 2 project.
 
-::: warning
-NOTE: If your tools and libraries implemented support for **Volar** and no issues occurred. You can continue using **Volar** within your Vue 2 project.
+::: tip
+If your tools and libraries implemented support for **Volar** and no issues occurred. You can continue using **Volar** within your Vue 2 project.
 :::
 
 ## Disable Volar
@@ -39,7 +39,7 @@ To disable Takeover Mode, you need to enable VSCode's built-in TS language servi
 
 ![Vetur](/resources/screenshots/vscode-enable-vetur.png)
 
-## Uninstall `@vue/runtime-dom` - (Optional)
+## (Optional) Uninstall `@vue/runtime-dom`
 
 The Volar extension requires Vue 3 types from the `@vue/runtime-dom`. Vue 3 itself includes the `@vue/runtime-dom` package. For Vue 2 you will have to install it yourself. Since we are reverting back to use Vetur, you have to uninstall `@vue/runtime-dom` package.
 

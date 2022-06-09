@@ -1,0 +1,15 @@
+{
+    "[javascript]": {
+        "editor.defaultFormatter": "Vue.volar"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "Vue.volar"
+    },
+    "[vue]": {
+        "editor.defaultFormatter": "Vue.volar",
+
+        // Optional Settings
+        "gitlens.codeLens.scopes": [ "document" ],
+        "editor.semanticHighlighting.enabled": true
+    }
+}
