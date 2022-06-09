@@ -17,6 +17,19 @@ To avoid conflict please disable `Volar` it you have it install.
 
 ![Vetur](/resources/screenshots/vscode-disable-volar.png)
 
+## Disable Takeover Mode
+
+To disable Takeover Mode, you need to enable VSCode's built-in TS language service in your project's workspace only by following these steps:
+
+1. In your project workspace, bring up the command palette with `Ctrl + Shift + P` (macOS: `Cmd + Shift + P`).
+1. Type `built` and select "Extensions: Show Built-in Extensions".
+1. Type `typescript` in the extension search box (do not remove `@builtin` prefix).
+1. Click the little gear icon of "TypeScript and JavaScript Language Features", and select "Enable" or "Enable (Workspace)".
+1. Reload the workspace. Takeover mode will be enabled when you open a Vue or TS file.
+
+![TypeScript and JavaScript Language Features](https://vuejs.org/resources/takeover-mode.54f7bbf6.png)
+
+
 ## Enable Vetur
 
 1. In your project workspace, bring up the command palette with `Ctrl + Shift + P` (macOS: `Cmd + Shift + P`).

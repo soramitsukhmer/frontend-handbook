@@ -20,7 +20,7 @@ We also have our own Visual Studio Code's [Extension Pack](https://marketplace.v
 $ code --install-extension soramitsukhmer.vscode-frontend-pack
 ```
 
-## Takeover Mode
+## Enable Takeover Mode
 
 To enable Takeover Mode, you need to disable VSCode's built-in TS language service in your project's workspace only by following these steps:
 
