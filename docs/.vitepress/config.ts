@@ -8,8 +8,8 @@ const metadata = {
 
 export default defineConfig({
   lang: 'en-US',
-  title: 'Soramitsu (Khmer)',
-  description: 'Just playing around.',
+  title: 'Handbook For Team Frontend',
+  description: 'This Handbook should be the starting point for any new team members. It provides an overview our roles, our team norms, and details of our processes.',
   base: '/frontend-handbook/',
   lastUpdated: true,
   themeConfig: {
