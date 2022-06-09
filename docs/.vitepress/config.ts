@@ -91,16 +91,16 @@ function guideSidebar(): DefaultTheme.SidebarGroup[] {
     //     { text: 'Project Scaffolding', link: '/guide/wip' },
     //   ]
     // },
-    // {
-    //   text: 'Guideline',
-    //   collapsible: true,
-    //   items: [
-    //     { text: 'Coding Guidelines', link: '/guide/wip' },
-    //     { text: 'API Guidelines', link: '/guide/wip' },
-    //     { text: 'Development Process', link: '/guide/wip' },
-    //     { text: 'Source Code Organization', link: '/guide/wip' },
-    //   ]
-    // },
+    {
+      text: 'Guide',
+      collapsible: true,
+      items: [
+        { text: 'Coding Guidelines', link: '/guide/coding-guideline' },
+        { text: 'API Guidelines', link: '/guide/api-guideline' },
+        { text: 'Development Process', link: '/guide/development-process' },
+        { text: 'Source Code Organization', link: '/guide/source-code-organization' },
+      ]
+    },
     {
       text: 'Tooling',
       collapsible: true,
