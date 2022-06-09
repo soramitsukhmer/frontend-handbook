@@ -27,7 +27,7 @@ To disable Takeover Mode, you need to enable VSCode's built-in TS language servi
 1. Click the little gear icon of "TypeScript and JavaScript Language Features", and select "Enable" or "Enable (Workspace)".
 1. Reload the workspace. Takeover mode will be enabled when you open a Vue or TS file.
 
-![TypeScript and JavaScript Language Features](https://vuejs.org/resources/takeover-mode.54f7bbf6.png)
+![TypeScript and JavaScript Language Features](/resources/screenshots/takeover-mode.png)
 
 
 ## Enable Vetur
