@@ -1,6 +1,8 @@
 ---
 layout: home
 
+title: Home
+
 hero:
   name: Handbook
   text: For Team Frontend
