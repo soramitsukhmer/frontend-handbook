@@ -124,6 +124,7 @@ function guideSidebar(): DefaultTheme.SidebarGroup[] {
       collapsible: true,
       items: [
         { text: 'Migration from Vetur', link: '/guide/migrations/migration-from-vetur' },
+        { text: 'Switch from Volar to Vetur', link: '/guide/migrations/migration-from-volar' },
       ]
     },
   ]
