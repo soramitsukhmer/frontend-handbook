@@ -12,7 +12,7 @@ curl -o- https://raw.githubusercontent.com/soramitsukhmer/setup/main/install | s
 
 > The source can be found here. [soramitsukhmer/setup](https://github.com/soramitsukhmer/setup)
 
-Once done, then you can head over to [`Engineering Guide -> Tooling`](http://localhost:3000/guide/tooling/ide-support.html) to setup your editor.
+Once done, then you can head over to [`Engineering Guide -> Tooling`](/guide/tooling/ide-support.html) to setup your editor.
 
 ## Manual Installation
 
@@ -25,7 +25,8 @@ You'll need the following tools:
 - [Homebrew](https://brew.sh/), follow the [installation guide](https://brew.sh/#install)
 - [Git](https://git-scm.com/)
 - [Node.js](https://nodejs.org/en/), x64, version `14.x` or later
-- [Yarn](https://yarnpkg.com/), follow the [installation guide](https://yarnpkg.com/en/docs/install)
+- ~~[Yarn](https://yarnpkg.com/), follow the [installation guide](https://yarnpkg.com/en/docs/install)~~ — :warning: use `pnpm` instead.
+- [pnpm](https://pnpm.io/), follow the [installation guide](https://pnpm.io/installation)
 - [Visual Studio Code](https://code.visualstudio.com/) (**Recommended**) or [Atom](https://atom.io/)
 - [Fork](https://git-fork.com/) (**Recommended**) or [GitHub Desktop](https://desktop.github.com/)
 - [Docker](https://www.docker.com/), follow the [installation guide](https://docs.docker.com/get-docker/)
@@ -63,4 +64,4 @@ You'll need the following tools:
     Docker / the Codespace should have at least 4 Cores and 6 GB of RAM (8 GB recommended) to run the full build.
 
 
-Once done, then you can head over to [`Engineering Guide -> Tooling`](http://localhost:3000/guide/tooling/ide-support.html) to setup your editor.
+Once done, then you can head over to [`Engineering Guide -> Tooling`](/guide/tooling/ide-support.html) to setup your editor.
