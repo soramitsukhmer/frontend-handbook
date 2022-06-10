@@ -19,6 +19,7 @@ export default defineConfig({
     sidebar: {
       '/on-boarding/': onBoardingSidebar(),
       '/guide/': guideSidebar(),
+      '/kb/': knowledgeBaseSidebar(),
     },
     socialLinks: socialLinks(),
     editLink: {
@@ -49,6 +50,7 @@ function nav(): DefaultTheme.NavItem[] {
     { text: 'About', link: '/about' },
     { text: 'On-Boarding', link: '/on-boarding/' },
     { text: 'Engineering Guide', link: '/guide/' },
+    { text: 'Knowledge Base', link: '/kb/' },
     {
       text: 'Help',
       items: [
@@ -71,6 +73,17 @@ function onBoardingSidebar(): DefaultTheme.SidebarGroup[] {
         { text: 'Setup your environment', link: '/on-boarding/setup-your-environment' },
       ]
     }
+  ]
+}
+function knowledgeBaseSidebar(): DefaultTheme.SidebarGroup[] {
+  return [
+    {
+      text: 'Knowledge Base',
+      collapsible: true,
+      items: [
+        { text: 'Create Application Release', link: '/kb/app-release-guide' },
+      ]
+    },
   ]
 }
 
@@ -99,13 +112,6 @@ function guideSidebar(): DefaultTheme.SidebarGroup[] {
         { text: 'API Guidelines', link: '/guide/api-guideline' },
         { text: 'Development Process', link: '/guide/development-process' },
         { text: 'Source Code Organization', link: '/guide/source-code-organization' },
-      ]
-    },
-    {
-      text: 'Release',
-      collapsible: true,
-      items: [
-        { text: 'Application Release Guide', link: '/guide/release/app-release-guide.md' },
       ]
     },
     {

@@ -1,4 +1,4 @@
-# Application Release Guide
+# Create Application Release
 
 ::: warning
 This document is currently in a "Work in Progress" stage.
