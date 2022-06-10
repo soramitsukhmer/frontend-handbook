@@ -12,15 +12,7 @@ This is the lifecycle of Frontend application:
 
 ![release-lifecycle](./assets/release-lifecycle.png)
 
-```
-Branch:       Tags:                   Env:
-
-Development   -> [alpha/beta]         -> [Development]
-Main          -> [Release Candidate]  -> [Stagging]
-Release       -> [Stable]             -> [Production]
-```
-
-Read https://en.wikipedia.org/wiki/Software_release_life_cycle for more information.
+Read [Software release life cycle](https://en.wikipedia.org/wiki/Software_release_life_cycle) for more information.
 
 ## Checklist
 
@@ -108,10 +100,7 @@ yarn version --minor --patch
 
 > Optional: Some project might have `bump:release` script in `package.json`. You can run `yarn bump:release` it the same as run `yarn version`
 
-::: info
 Read more about the [Semantic Versioning Specification](https://semver.org/#semantic-versioning-specification-semver).
-:::
-
 
 ## Push tag to GitHub
 
