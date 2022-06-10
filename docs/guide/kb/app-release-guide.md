@@ -4,13 +4,13 @@
 This document is currently in a "Work in Progress" stage.
 :::
 
-![github-action-flow](./assets/github-action-flow.png)
+![github-action-flow](./assets/github-action-flow.svg)
 
 ## Release life cycle
 
 This is the lifecycle of Frontend application:
 
-![release-lifecycle](./assets/release-lifecycle.png)
+![release-lifecycle](./assets/release-lifecycle.svg)
 
 Read [Software release life cycle](https://en.wikipedia.org/wiki/Software_release_life_cycle) for more information.
 
@@ -46,7 +46,7 @@ The `tag` should be created locally, but in some case we can use GitHub Release 
 The created `tag` must follow [**Semantic Versioning**](https://semver.org/) standard.
 :::
 
-![build-release-metadata](./assets/build-release-metadata.png)
+![build-release-metadata](./assets/build-release-metadata.svg)
 
 ::: details Stable version
 Given a version number `MAJOR.MINOR.PATCH`, increment the:
