@@ -4,9 +4,13 @@
 This document is currently in a "Work in Progress" stage.
 :::
 
+![github-action-flow](./assets/github-action-flow.png)
+
 ## Release life cycle
 
 This is the lifecycle of Frontend application:
+
+![release-lifecycle](./assets/release-lifecycle.png)
 
 ```
 Branch:       Tags:                   Env:
@@ -15,11 +19,6 @@ Development   -> [alpha/beta]         -> [Development]
 Main          -> [Release Candidate]  -> [Stagging]
 Release       -> [Stable]             -> [Production]
 ```
-
-| Name | Description | Branch      | Docker Tag   | Release Env   |
-| ---- | ----------- | ----------- | ------------ | ------------- |
-| Name | Description | Development | [alpha/beta] | [Development] |
-
 
 Read https://en.wikipedia.org/wiki/Software_release_life_cycle for more information.
 
@@ -49,10 +48,13 @@ $ git pull
 
 ## Create version `tag`
 
-> **Note:** > `tag` should be created locally, but in some case we can use GitHub Release to create both `releases` and `tags depend on project type.
+::: warning
+The `tag` should be created locally, but in some case we can use GitHub Release to create both `releases` and `tags depend on project type.
 
-> The created `tag` must follow [**Semantic Versioning**](https://semver.org/) standard.
+The created `tag` must follow [**Semantic Versioning**](https://semver.org/) standard.
+:::
 
+![build-release-metadata](./assets/build-release-metadata.png)
 
 ::: details Stable version
 Given a version number `MAJOR.MINOR.PATCH`, increment the:
@@ -63,14 +65,12 @@ Given a version number `MAJOR.MINOR.PATCH`, increment the:
 :::
 
 ::: details Pre-release version
-A pre-release version MAY be denoted by appending a hyphen and a series of dot separated identifiers immediately following the patch version. Identifiers MUST comprise only ASCII alphanumerics and hyphens [0-9A-Za-z-].
+- A pre-release version MAY be denoted by appending a hyphen and a series of dot separated identifiers immediately following the patch version. Identifiers MUST comprise only ASCII alphanumerics and hyphens [0-9A-Za-z-].
 
-Identifiers MUST NOT be empty. Numeric identifiers MUST NOT include leading zeroes. Pre-release versions have a lower precedence than the associated normal version. A pre-release version indicates that the version is unstable and might not satisfy the intended compatibility requirements as denoted by its associated normal version. Examples: `1.0.0-alpha`, `1.0.0-alpha.1`, `1.0.0-0.3.7`, `1.0.0-x.7.z.92`, `1.0.0-x-y-z.–`
+- Identifiers MUST NOT be empty. Numeric identifiers MUST NOT include leading zeroes. Pre-release versions have a lower precedence than the associated normal version. A pre-release version indicates that the version is unstable and might not satisfy the intended compatibility requirements as denoted by its associated normal version. Examples: `1.0.0-alpha`, `1.0.0-alpha.1`, `1.0.0-0.3.7`, `1.0.0-x.7.z.92`, `1.0.0-x-y-z.–`
 :::
 
 Additional labels for pre-release and build metadata are available as extensions to the `MAJOR.MINOR.PATCH` format.
-
-Read more about the [Semantic Versioning Specification](https://semver.org/#semantic-versioning-specification-semver).
 
 You can run the following command to create `tag` using `npm` or `yarn`, this usually the recommended way for JavaScript project.
 
@@ -107,6 +107,11 @@ yarn version --minor --patch
 ```
 
 > Optional: Some project might have `bump:release` script in `package.json`. You can run `yarn bump:release` it the same as run `yarn version`
+
+::: info
+Read more about the [Semantic Versioning Specification](https://semver.org/#semantic-versioning-specification-semver).
+:::
+
 
 ## Push tag to GitHub
 
