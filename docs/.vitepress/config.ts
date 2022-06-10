@@ -102,6 +102,13 @@ function guideSidebar(): DefaultTheme.SidebarGroup[] {
       ]
     },
     {
+      text: 'Release',
+      collapsible: true,
+      items: [
+        { text: 'Application Release Guide', link: '/guide/release/app-release-guide.md' },
+      ]
+    },
+    {
       text: 'Tooling',
       collapsible: true,
       items: [
