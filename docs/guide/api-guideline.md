@@ -23,3 +23,7 @@ Coming soon...
 ## Event naming
 
 Events follow the `on[Did|Will]VerbSubject` patterns, like `onDidLoginUser` or `onWillLoginUser`. It doesn’t hurt to use explicit names.
+
+## JSDOC
+
+We add JSDoc for all parts of the API. The doc is supported by markdown syntax. When document string-datatypes that end up in the UI, use the phrase ‘Human-readable string…’
