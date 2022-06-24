@@ -121,13 +121,6 @@ function guideSidebar(): DefaultTheme.SidebarGroup[] {
     //   ]
     // },
     {
-      text: 'Knowledge Base',
-      collapsible: true,
-      items: [
-        { text: 'Create Application Release', link: '/guide/kb/app-release-guide' },
-      ]
-    },
-    {
       text: 'Migrations',
       collapsible: true,
       items: [
