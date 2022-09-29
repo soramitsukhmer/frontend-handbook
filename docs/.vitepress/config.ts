@@ -121,6 +121,16 @@ function guideSidebar(): DefaultTheme.SidebarGroup[] {
     //   ]
     // },
     {
+      text: 'Project Release Workflow',
+      collapsible: true,
+      items: []
+    },
+    {
+      text: 'Library Release Workflow',
+      collapsible: true,
+      items: []
+    },
+    {
       text: 'Migrations',
       collapsible: true,
       items: [
